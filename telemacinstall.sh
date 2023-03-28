@@ -2,13 +2,13 @@
 
 
 sudo apt-get update && sudo apt-get install -y gfortran libopenmpi-dev libhdf5-serial-dev libnetcdf-dev libfftw3-dev
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 sudo apt-get update && sudo apt-get install -y subversion vim cmake build-essential gfortran mpich subversion python python-numpy dialog
-sudo apt install python3-numpy python3-scipy python3-matplotlib python3-distutils python3-dev python3-pip
+sudo apt install -y python3-numpy python3-scipy python3-matplotlib python3-distutils python3-dev python3-pip
 
-sudo apt install git-all git-lfs
+sudo apt install -y git-all git-lfs
 
- sudo apt install gfortran
+ sudo apt install -y gfortran
  sudo apt install -y cmake build-essential dialog
 
 
